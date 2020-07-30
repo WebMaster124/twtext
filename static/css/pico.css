@@ -1328,4 +1328,16 @@ aside li a {
   opacity: 1;
 }
 
+@media (max-width: 576px){
+  nav{
+    display: block;
+  }
+  nav ul:first-child,
+  nav ul:nth-child(2){
+    justify-content: space-between;
+  }
+  nav ul:last-child{
+    justify-content: center;
+  }
+}
 /*# sourceMappingURL=pico.css.map */
